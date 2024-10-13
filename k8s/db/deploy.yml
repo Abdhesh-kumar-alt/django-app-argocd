@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: postgres
-  namespace: django-app
+  namespace: backend-app
 spec:
   replicas: 1
   selector:
