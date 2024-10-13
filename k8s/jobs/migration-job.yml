@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: django-db-migrations
-  namespace: django-app
+  namespace: backend-app
 spec:
   ttlSecondsAfterFinished: 100
   activeDeadlineSeconds: 60
