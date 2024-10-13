@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: nginx-cm
-  namespace: django-app
+  namespace: backend-app
 data:
   default.conf: |
     server {
